@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Nav Css */
+.nav{
+  background-color: black;
+}
+.margin{
+  margin-left:40rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.space{
+  margin-top: 10rem;
+}
+
+/* .hvr:hover{
+  background-color: aliceblue;
+  border-radius: 10px;
+} */
+
+/* Landing Page */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+.center{
+  text-align: center;
+  /* align-items: center; */
+}
+.cnt{
+  margin-left:70px;
+}
+
+/* Card Css */
+.card2 {
+ box-shadow: 0 4px 8px 0 black;
+ width: 18rem;
+ margin:3rem;
+ text-align:center;
+}
+
+.cad:hover {
+  box-shadow: 5px 0 5px 1px black;
+}
+.cad{
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; 
+}
+.cont{
+  padding: 40px 16px;
+}
+
+
+/* Questions & Answers */
+.Accor{
+  /* text-align:center; */
+  /* margin:auto; */
+  /* width: 35em;; */
+  /* box-shadow: 0px 4px 6px rgba(0,0,0); */
+}
+.marg{
+  margin-top:  5rem;
+}
+
+/* Footer Css */
+.footer {
+  padding-top: 5px;
+  background-color:black;
+  color:whitesmoke;
+  text-align: center;
+}
+.footerp{
+  display:inline-block;
+  margin-right: 10px;
 }
